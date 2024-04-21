@@ -24,7 +24,7 @@ st.write("The third number is ", number3)
 
 if (number1 > number2):
     greatest1 = number1
-else
+else:
     greatest1 = number2
 
 if (number3 > greatest1):
