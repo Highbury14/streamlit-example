@@ -13,6 +13,25 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
+number1 = st.number_input("Please input the first number.")
+st.write("The first number is ", number1)
+
+number2 = st.number_input("Please input the second number.")
+st.write("The second number is ", number2)
+
+number3 = st.number_input("Please input the third number.")
+st.write("The third number is ", number3)
+
+if (number1 > number2):
+    greatest1 = number1
+else
+    greatest1 = number2
+
+if (number3 > greatest1):
+    greatest1 = number3
+
+st.write("The largest number is ", greatest1)
+
 num_points = st.slider("Number of points in spiral", 1, 10000, 1100)
 num_turns = st.slider("Number of turns in spiral", 1, 300, 31)
 
