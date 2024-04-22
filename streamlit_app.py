@@ -19,12 +19,4 @@ st.write("The second number is ", number2)
 number3 = st.number_input("Please input the third number.")
 st.write("The third number is ", number3)
 
-if (number1 > number2):
-    greatest1 = number1
-else:
-    greatest1 = number2
-
-if (number3 > greatest1):
-    greatest1 = number3
-
-st.write("# The largest number is ", greatest1)
+st.write("# The largest number is ", max(number1, number2, number3))
