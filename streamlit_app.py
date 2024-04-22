@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 
 """
-# Welcome to Streamlit! (App by George J. , 21f3002389@ds.study.iitm.ac.in, Tools-for-DataScience)
+# Welcome to Streamlit! App by George J. , 21f3002389@ds.study.iitm.ac.in, Tools-for-DataScience.
 
 Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:.
 If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
@@ -32,4 +32,4 @@ else:
 if (number3 > greatest1):
     greatest1 = number3
 
-st.write("# The largest number is ", greatest1)
+st.write("#The largest number is ", greatest1)
