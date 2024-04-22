@@ -20,3 +20,5 @@ number3 = st.number_input("Please input the third number.")
 st.write("The third number is ", number3)
 
 st.write("# The largest number is ", max(number1, number2, number3))
+
+""" -------------------------------------- """
