@@ -21,4 +21,5 @@ st.write("The third number is ", number3)
 
 st.write("# The largest number is ", max(number1, number2, number3))
 
-""" -------------------------------------- """
+""" -------------------------------------- 
+----------------------------------------- """
