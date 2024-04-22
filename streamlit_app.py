@@ -14,7 +14,7 @@ In the meantime, below is an example of what you can do with just a few lines of
 
 Find the largest of three numbers.
 """
-st.set_page_config(layout='wide')
+st.set_page_config(layout="wide")
 number1 = st.number_input("Please input the first number.")
 st.write("The first number is ", number1)
 
