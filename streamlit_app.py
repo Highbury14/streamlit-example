@@ -8,7 +8,10 @@ import streamlit as st
 
 Find the largest of three numbers.
 """
-# st.set_page_config(layout="wide")
+def set_wide_page():
+  st.set_page_config(layout="wide")
+set_wide_page()
+
 number1 = st.number_input("Please input the first number.")
 st.write("The first number is ", number1)
 
